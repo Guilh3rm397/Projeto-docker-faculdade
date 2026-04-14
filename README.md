@@ -1,10 +1,10 @@
-📚 Projeto MongoDB com PyMongo + Docker
-📌 Descrição
+## 📚 Projeto MongoDB com PyMongo + Docker
+## 📌 Descrição
 
 Este projeto demonstra operações básicas de banco de dados utilizando MongoDB com Python (PyMongo), executando o banco através de Docker.
 
 São realizadas operações de:
-
+```bash
 Inserção de dados
 Consulta
 Atualização
@@ -67,6 +67,7 @@ MongoClient("mongodb://localhost:27017/")
 O banco de dados e a coleção são criados automaticamente
 O MongoDB roda em container Docker
 Caso execute o script mais de uma vez, os dados serão duplicados
+```
 👨‍💻 Autor
 
 Guilherme Ramos Rangel
